@@ -1,18 +1,35 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+    font-family: 'lato';
 
     section {
-        margin-top: 100px;
         display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        .images {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
 
         img {
             margin-top: 5px;
             border-radius: 15px;
             height: 50px;
+            margin: 0 5px 10px;
+        }
+
+        .text {
+            width: 90%;
+            margin: 60px 0;
+
+            p {
+                text-align: center;
+                font-weight: 700;
+                font-size: 17px;
+            }
         }
     }
 
@@ -32,8 +49,6 @@ export const Container = styled.div`
         }
 
         .text {
-
-            font-family: 'lato';
             width: 450px;
 
             h1 {
@@ -42,7 +57,7 @@ export const Container = styled.div`
             
             p {
                 margin-top: 10px;
-                font-weight: 500px;
+                font-weight: 500;
                 font-size: 17px;
             }
         
@@ -63,7 +78,6 @@ export const Container = styled.div`
                 font-weight: 600;
                 font-size: 20px;
                 transition: 0.5s ease;
-                font-family: 'lato';
             }
             
             a:hover {

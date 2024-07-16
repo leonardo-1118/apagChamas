@@ -22,12 +22,17 @@ function Introduction() {
                 </div>
             </div>
             <section>
-                <img src={CreaspLogo} alt="logo-creasp" />
-                <img src={BombeiroImage} alt="logo-bombeiro" />
-                <img src={AnvisaLogo} alt="logo-anvisa" />
-                <img src={AbntLogo} alt="logo-abnt" />
-                <img src={CetesbLogo} alt="logo-cetesb" />
-                <img src={SpLogo} alt="logo-governo-de-são-paulo" />
+                <div className='text'>
+                    <p>Licenciamos: Prefeitura, CETESB, TPU (Termo de Permissão de Uso para calçadas de bares e restaurantes) e Vigilância Sanitária.</p>
+                </div>
+                <div className="images">
+                    <img src={CreaspLogo} alt="logo-creasp" />
+                    <img src={BombeiroImage} alt="logo-bombeiro" />
+                    <img src={AnvisaLogo} alt="logo-anvisa" />
+                    <img src={AbntLogo} alt="logo-abnt" />
+                    <img src={CetesbLogo} alt="logo-cetesb" />
+                    <img src={SpLogo} alt="logo-governo-de-são-paulo" />
+                </div>
             </section>
         </Container>
     )
