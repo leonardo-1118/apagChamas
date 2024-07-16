@@ -27,24 +27,25 @@ export const Container = styled.div`
             line-height: 1.5;
             text-align: justify;
         }
-        
+
         a {
-        margin-top: 30px;
-        background-color: #C3161C;
-        color: #fff;
-        text-decoration: none;
-        font-size: 20px;
-        width: 200px;
-        height: 50px;
-        text-align: center;
-        border-radius: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-        font-weight: 700;
-        font-size: 20px;
-        transition: 0.5s ease;
+            margin-top: 30px;
+            background-color: #C3161C;
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            width: 200px;
+            height: 50px;
+            text-align: center;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 20px;
+            transition: 0.5s ease;
+            font-family: 'lato';
         }
 
         a:hover {
