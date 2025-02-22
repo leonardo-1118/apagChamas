@@ -38,15 +38,7 @@ export const Container = styled.div`
         justify-content: space-around;
         align-items: center;
         margin-top: 50px;
-
-        .avcb-img {
-            img {
-                width: 200px;
-                border: solid 2px #C3161C;
-                border-radius: 5px;
-                padding: 2px;
-            }
-        }
+        padding: 0 50px;
 
         .text {
             width: 450px;
@@ -83,17 +75,7 @@ export const Container = styled.div`
             a:hover {
                 background-color: black;
             }
-        }
-
-        @media(max-width: 800px) {
-
-            padding: 0 50px;
-
-            h1 {
-                font-size: 27px;
-                width: 85%;
-            }
-        }
+        } 
 
         @media(max-width: 800px) {
             display: flex;
@@ -104,13 +86,13 @@ export const Container = styled.div`
             padding: 20px;
 
             .text {
-                width: 90%; /* Ajusta a largura para telas menores */
+                width: 90%; 
                 align-items: center;
                 justify-content: center;
 
                 h1 {
                     font-size: 27px;
-                    width: 100%; /* Ajusta a largura para telas menores */
+                    width: 100%; 
                 }
 
                 p {
