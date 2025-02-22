@@ -10,7 +10,7 @@ function Contacts() {
         <Container>
             <div className="head">
                 <h3> <a href="https://api.whatsapp.com/send?phone=5511947372825&text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servicos%20da%20Apag%20Chamas" target="blank">Solicite um Orçamento</a></h3>
-                <a className="adress" href="https://maps.app.goo.gl/UEntGzhTzxD6FnL28" target="blank">Av. presidente castelo Branco 6653, 11º andar - várzea da barra funda. <RiMapPinLine /></a>
+                <a className="adress" href="https://maps.app.goo.gl/UEntGzhTzxD6FnL28" target="blank">Av. Presidente Castelo Branco 6653, 11º andar - Várzea da Barra Funda. <RiMapPinLine /></a>
             </div>
             <div className="social-contacts">
                 <a href="https://www.instagram.com/apag_chamasdobrasil?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="blank">
